@@ -43,8 +43,10 @@ const AboutPhilosophy = () => {
                   <span className="text-white font-bold text-lg">HEX</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold">DevPortfolio Pro</h3>
-                  <p className="text-sm opacity-80">Frontend Developer</p>
+                  <h3 className="text-xl font-bold text-white/80">HexCode</h3>
+                  <p className="text-sm opacity-80 text-white/80">
+                    Frontend Developer
+                  </p>
                 </div>
               </div>
               <p className="text-white/80 mb-4 max-w-md">
@@ -54,7 +56,7 @@ const AboutPhilosophy = () => {
             </div>
 
             <div>
-              <h4 className="font-semibold mb-4">Quick Links</h4>
+              <h4 className="font-semibold mb-4 text-white/80">Quick Links</h4>
               <ul className="space-y-2 text-white/80">
                 <li>
                   <a
@@ -92,7 +94,7 @@ const AboutPhilosophy = () => {
             </div>
 
             <div>
-              <h4 className="font-semibold mb-4">Resources</h4>
+              <h4 className="font-semibold mb-4 text-white/80">Resources</h4>
               <ul className="space-y-2 text-white/80">
                 <li>
                   <a href="#" className="hover:text-accent transition-colors">

@@ -95,7 +95,7 @@ const HeroSection = () => {
                   <Image
                     src="/assets/images/image.jpg"
                     alt="Professional developer portrait"
-                    className="w-full  h-full object-cover pt-10"
+                    className="w-full  h-full object-cover "
                   />
                 </div>
               </div>

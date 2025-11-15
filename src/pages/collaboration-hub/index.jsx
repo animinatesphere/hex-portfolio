@@ -86,8 +86,10 @@ const CollaborationHub = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center text-white">
             <div className="inline-flex items-center bg-white/20 rounded-full px-4 py-2 mb-6">
-              <Icon name="Sparkles" size={16} className="mr-2" />
-              <span className="text-sm font-medium">Ready to collaborate</span>
+              <Icon name="Sparkles" size={16} className="mr-2 text-white" />
+              <span className="text-sm font-medium text-white">
+                Ready to collaborate
+              </span>
             </div>
 
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
@@ -195,11 +197,11 @@ const CollaborationHub = () => {
             <div className="flex items-center justify-center space-x-8 text-sm text-text-secondary">
               <div className="flex items-center">
                 <Icon name="Mail" size={16} className="mr-2" />
-                <span>hello@devportfolio.pro</span>
+                <span>Adeyemipelumi1980@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <Icon name="Phone" size={16} className="mr-2" />
-                <span>+1 (555) 123-4567</span>
+                <span>+234 90-216-1-5849</span>
               </div>
               <div className="flex items-center">
                 <Icon name="MapPin" size={16} className="mr-2" />
@@ -215,19 +217,18 @@ const CollaborationHub = () => {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center mb-4 md:mb-0">
               <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center mr-3">
-                <span className="text-white font-bold text-sm">DP</span>
+                <span className="text-white font-bold text-sm">Hex</span>
               </div>
               <div>
-                <div className="font-semibold">DevPortfolio Pro</div>
-                <div className="text-sm opacity-75">
+                <div className="font-semibold text-white">HexCode</div>
+                <div className="text-sm opacity-75 text-white">
                   Frontend Development Excellence
                 </div>
               </div>
             </div>
 
-            <div className="text-sm opacity-75">
-              © {new Date()?.getFullYear()} DevPortfolio Pro. All rights
-              reserved.
+            <div className="text-sm opacity-75 text-white">
+              © {new Date()?.getFullYear()} HexCode. All rights reserved.
             </div>
           </div>
         </div>
